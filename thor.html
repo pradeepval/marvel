@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Thor</title>
+    <link rel="stylesheet" href="thor.css" />
+   
+  </head>
+  <body>
+    <button class="button" id="btn" onclick="movies()">Movies</button>
+    <div id="cont" style="display: none;">
+     <h3>Thor-2011</h3> 
+      <h3>Thor: The Dark World-2013</h3>
+       <h3>Thor: Ragnarok-2017</h3>
+       <h3>Thor: Love and Thunder-2022</h3>
+    </div>
+    <script type="text/javascript">
+      function movies() {
+        if (cont.style.display != "block") {
+          cont.style.display = "block";
+        } else {
+          cont.style.display = "none";
+        } 
+      }
+    </script>
+  </body>
+</html>

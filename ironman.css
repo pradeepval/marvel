@@ -1,0 +1,29 @@
+body {
+  min-height: 110vh;
+  background-image: url(ironman.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+button {
+  display: inline-block;
+  padding: 5px 10px;
+  border: radius 5px;
+  background-color: #ffd700;
+  color: #e91111;
+  font-weight: 600;
+}
+
+.button:hover {
+  background-color: #b8860b; /* Darker gold color on hover */
+}
+
+#cont {
+  border: 2px solid #ffd700;
+  margin-right: 1100px;
+  padding: 5px 10px;
+  background-color: #e91111;
+}
+
+

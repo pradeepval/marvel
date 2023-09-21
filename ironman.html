@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Iron man</title>
+    <link rel="stylesheet" href="ironman.css" />
+  </head>
+  <body class="container">
+    <button class="button" id="btn" onclick="movies()">Movies</button>
+    <div id="cont" style="display: none">
+      <h3>Iron Man-2008</h3>
+      <h3>Iron Man-2010</h3>
+      <h3>Iron Man-2013</h3>
+    </div>
+    <div class="hover-box">I love you 3000</div>
+    <script type="text/javascript">
+      function movies() {
+        if (cont.style.display != "block") {
+          cont.style.display = "block";
+        } else {
+          cont.style.display = "none";
+        }
+      }
+    </script>
+  </body>
+</html>

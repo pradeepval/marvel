@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>captain america</title>
+    <link rel="stylesheet" href="captainamerica.css" />
+    
+   
+  </head>
+  <body>
+ 
+    <button class="button" id="btn" onclick="movies()">Movies</button>
+    <div id="cont" style="display: none;">
+     <h3>Captain America: The First Avenger - 2011</h3> 
+      <h3>Captain America: The Winter Soldier-2014</h3>
+       <h3>Captain America: Civil War-2016</h3>
+    </div>
+    <script type="text/javascript">
+      function movies() {
+        if (cont.style.display != "block") {
+          cont.style.display = "block";
+        } else {
+          cont.style.display = "none";
+        } 
+      }
+    </script>
+  </body>
+</html>

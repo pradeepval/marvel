@@ -1,0 +1,33 @@
+body {
+  min-height: 110vh;
+  background-image: url(hulk.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.button {
+display: inline-block;
+padding: 5px 10px;
+border-radius:  0px;
+ background-color: #29c929;
+color: #0310272a; /* Blue color */
+border-radius: 6px;
+font-weight: 600;
+
+
+}
+
+.button:hover {
+  background-color:  rgb(6, 66, 10); /* Darker gold color on hover */
+  color: black;
+   filter: brightness(1.5);
+}
+
+#cont {
+    border: 2px  solid rgb(220, 223, 33) ;
+    margin-right: 900px;
+    padding: 5px 10px;
+  background-color: rgb(40, 120, 45); /* Darker blue color on hover */
+    
+}
