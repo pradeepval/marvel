@@ -4,10 +4,12 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  position: relative;
 }
 
 .button {
-  display: inline-block;
+  display: block;
+  margin: auto;
   padding: 10px 20px;
   background-color: #0074d9; /* Blue color */
   color: #fff; /* Text color */
@@ -21,7 +23,7 @@ body {
 .button:hover {
   background-color: #0056b3; /* Darker blue color on hover */
 }
-  
+
 #cont {
   display: inline-block;
   border: 2px solid #8a2e25;
@@ -30,5 +32,8 @@ body {
   padding: 5px 10px;
   color: #0056b3;
   background-color: rgb(20, 20, 2);
-  
+}
+
+.container {
+  text-align: center;
 }
